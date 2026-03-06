@@ -12,7 +12,7 @@ st.set_page_config(page_title="European Bank Churn Dashboard",layout="wide")
 st.title("European Bank Churn Dashboard")
 
 #Load Dataset
-df= pd.read_csv(r"C:\Users\Lenovo\Downloads\European_Bank.csv")
+df= pd.read_csv("European_Bank.csv")
 
 st.sidebar.header("Dashboard Filters")
 
@@ -340,3 +340,4 @@ with col2:
 
      st.pyplot(fig2,use_container_width=False)
      
+
