@@ -295,7 +295,7 @@ with col1:
 
 with col2:
           fig2,ax2=plt.subplots()
-          sns.boxplot(x='IsActiveMember',y='Tenure',data=filtered_df,color=["#2196F3","#44336"],ax=ax2)
+          sns.boxplot(x='IsActiveMember',y='Tenure',data=filtered_df,color="#2196F3",ax=ax2)
           ax2.set_title("Active Member vs Tenure")
           st.pyplot(fig2,use_container_width=False)
 
@@ -340,6 +340,7 @@ with col2:
 
      st.pyplot(fig2,use_container_width=False)
      
+
 
 
 
